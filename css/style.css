@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+    background-color: #131252;
+}
+
+header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.header-light {
+    position: absolute;
+    width: 389px;
+    height: 437px;
+    left: -55px;
+    top: -161px;
+    background: #FFFFFF;
+    filter: blur(100px);
+}
+
+nav {
+    width: 45vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 20vw;
+}
+
+header img {
+    z-index: 1;
+}
+
+nav ul {
+    min-width: 500px;
+    width: 45vw;
+    z-index: 1;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+nav ul a {
+    color: white;
+    font-family: 'Poppins';
+    text-decoration: none;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: justify;
+    color: #FFFFFF;
+    background-color: #3F599A;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+
+.left {
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.left p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 65px;
+    text-transform: capitalize;
+    z-index: 1;
+    color: white;
+}
+.grey{
+    color: #A8A8A8;
+}
+.light-blue{
+    color: #8D86FF;
+}
+
+.right {
+    height: 80vh;
+    width: 45vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right img {
+    position: absolute;
+    bottom: 2px;
+}
+
+.light {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    right: -250px;
+    bottom: -250px;
+
+    background: rgba(254, 255, 255, 0.78);
+    filter: blur(175px);
+}
