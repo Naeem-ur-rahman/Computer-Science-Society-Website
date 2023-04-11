@@ -15,14 +15,16 @@
 }
 
 @media only screen and (max-width:910px) and (min-width:768px) {
-    .left {
+    /* .left {
         display: flex;
-        width: fit-content;
+        width: auto;
         height: 50vh;
         justify-content: center;
         align-items: center;
         padding-left: 10vw;
-    }
+        flex-wrap: wrap;
+        flex: 1 2; 
+    } */
 
 }
 
@@ -32,6 +34,7 @@
         display: block;
         margin: auto;
         height: auto;
+        position: relative;
     }
 
     .header-light {
@@ -43,9 +46,11 @@
         background: #FFFFFF;
         filter: blur(150px);
     }
+
     nav::-webkit-scrollbar {
         display: none;
     }
+
     nav {
         min-width: 200px;
         height: 50px;
@@ -55,6 +60,19 @@
         align-items: center;
         margin: auto;
         overflow: scroll;
+        z-index: 2;
+    }
+
+    nav:hover {
+        padding: 5px;
+        height: fit-content;
+        overflow: visible;
+        z-index: 2;
+    }
+
+    .navbar ul li:hover {
+        color: #060f25;
+        background-color: white;
     }
 
     .navbar ul {
@@ -65,7 +83,22 @@
         align-items: center;
         height: auto;
         text-align: center;
+        z-index: 2;
+    }
 
+    .navbar-btn {
+        display: grid;
+        list-style-type: none;
+        color: #ffffff;
+        background-color: #060f25;
+        border-radius: .8rem;
+        margin: 3px;
+        padding: 10px;
+        z-index: 2;
+        min-width: 200px;
+        font-family: 'Poppins';
+        text-align: center;
+        line-height: 30px;
     }
 
     .navbar ul li {
@@ -74,6 +107,7 @@
         border-radius: .8rem;
         margin: 3px;
         padding: 10px;
+        z-index: 2;
     }
 
     .logo {
@@ -90,6 +124,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        display: none;
     }
 
     .main-start {
@@ -98,6 +133,7 @@
         margin: auto;
         justify-content: center;
         align-items: center;
+        gap: 105px;
     }
 
     .light {
@@ -116,27 +152,44 @@
     }
 
     .left {
-        height: 50vh;
-        gap:5px;
+        display: grid;
+        margin: 5vw;
+        height: 55vh;
+        width: 70vw;
     }
 
     .left p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
-        font-size: 60px;
+        font-size: 50px;
         line-height: 50px;
-        text-transform: capitalize;
+        text-transform: inherit;
         color: white;
+        text-align: center;
     }
 
     .right {
+        margin: 10vw;
         height: 300px;
+        width: 70vw;
         align-self: center;
         margin: auto;
     }
 
     .right img {
         width: 200px;
+    }
+
+    .members-text p {
+        font-family: 'Poppins';
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .contactbtn {
+        width: 215px;
+        height: 45px;
+        padding: 5px;
     }
 }

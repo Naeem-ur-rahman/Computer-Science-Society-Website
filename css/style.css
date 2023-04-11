@@ -62,6 +62,10 @@ nav ul {
     font-weight: 500;
 }
 
+.navbar-btn {
+    display: none;
+}
+
 nav ul a {
     color: white;
     font-family: 'Poppins';
@@ -112,12 +116,14 @@ nav ul a {
 }
 
 .left {
-    height: 80vh;
+    margin: 5vw;
+    height: 70vh;
     width: auto;
     display: grid;
     align-items: center;
     justify-content: center;
     z-index: 1;
+    gap: 10px;
 }
 
 .left p {
@@ -142,7 +148,6 @@ nav ul a {
 .contactbtn {
     width: 215px;
     height: 58px;
-
     background-color: #000235;
     border-color: #0F00FF;
     color: white;
@@ -163,7 +168,7 @@ nav ul a {
 }
 
 .right {
-    height: 80vh;
+    height: 70vh;
     width: 45vw;
     position: relative;
     display: flex;
@@ -184,4 +189,38 @@ nav ul a {
     bottom: 0px;
     background: rgba(254, 255, 255, 0.78);
     filter: blur(175px);
+}
+
+.members {
+    display: flex;
+    width: 350px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+.pic {
+    height: 80px;
+    width: 80px;
+    margin: -20px;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.members-text {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-text p {
+    font-family: 'Poppins';
+    font-size: 17px;
+    text-align: center;
 }

@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.flex-center{
+
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.border{
+
+.border {
     border: 1px solid black;
 }
