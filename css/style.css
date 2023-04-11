@@ -26,10 +26,12 @@ header {
     background: #FFFFFF;
     filter: blur(100px);
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-wrap: wrap;
 }
+
 nav {
     min-width: 600px;
     width: 45vw;
@@ -74,10 +76,12 @@ nav ul a {
     font-style: normal;
     cursor: pointer;
 }
-.login{
+
+.login {
     min-width: 140px;
     padding: 10px;
 }
+
 .loginbtn {
     color: #FFFFFF;
     background-color: #3F599A;
@@ -88,27 +92,31 @@ nav ul a {
     font-weight: 500;
     line-height: 34px;
 }
-.moon{
+
+.moon {
     min-width: 70px;
 }
+
 .login-moon {
     z-index: 1;
-    min-width: 140px;
+    min-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main-start{
+
+.main-start {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .left {
     height: 80vh;
-    width: 45vw;
+    width: auto;
     display: grid;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     z-index: 1;
 }
 
@@ -116,7 +124,7 @@ nav ul a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    font-size: 76px;
+    font-size: 75px;
     line-height: 65px;
     text-transform: capitalize;
     color: white;
@@ -170,10 +178,10 @@ nav ul a {
 
 .light {
     position: absolute;
-    width: 400px;
-    height: 450px;
-    right: -250px;
-    bottom: -250px;
+    width: 50%;
+    height: 50%;
+    right: 0px;
+    bottom: 0px;
     background: rgba(254, 255, 255, 0.78);
     filter: blur(175px);
 }
