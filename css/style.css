@@ -224,3 +224,65 @@ nav ul a {
     font-size: 17px;
     text-align: center;
 }
+
+.main-second {
+    display: block;
+}
+
+.main-second-heading {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-second-heading p {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+
+}
+
+.main-second-content {
+    height: 65vh;
+    display: flex;
+}
+
+.left-second {
+    width: 55vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-second p {
+    color: white;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.right-second {
+    width: 35vw;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-second img {
+    width: 400px;
+}
