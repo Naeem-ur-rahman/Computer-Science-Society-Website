@@ -62,7 +62,7 @@ nav ul {
     font-weight: 500;
 }
 
-.navbar-btn {
+#navbar-btn {
     display: none;
 }
 
@@ -196,6 +196,14 @@ nav ul a {
     width: 350px;
     height: 100px;
     margin-left: 25px;
+}
+
+.picstart {
+    height: 80px;
+    width: 80px;
+    margin: 0px;
+    border-radius: 3rem;
+    cursor: pointer;
 }
 
 .pic {
