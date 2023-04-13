@@ -17,6 +17,14 @@
         width: auto;
     }
 
+    .left-second p {
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    .event-section-heading img {
+        width: 80px;
+    }
 
 }
 
@@ -36,6 +44,11 @@
         margin: 30px;
         z-index: 1;
         width: auto;
+    }
+
+    .left-second p {
+        font-size: 15px;
+        line-height: normal;
     }
 
 }
@@ -234,5 +247,13 @@
 
     .right-second img {
         width: 300px;
+    }
+
+    .event-section-heading p {
+        font-size: 27px;
+    }
+
+    .event-section-content {
+        height: fit-content;
     }
 }
