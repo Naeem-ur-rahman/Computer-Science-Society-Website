@@ -360,3 +360,75 @@ nav ul a {
     font-size: 15px;
     line-height: 19px;
 }
+
+.main-four {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 80vw;
+    height: 25vw;
+    background: linear-gradient(93.76deg, #17C7FF 4.46%, rgba(186, 197, 255, 0.17) 55.23%, #24A08A 102.36%);
+    border-radius: 5vw;
+    display: grid;
+    /* grid-template-rows: 1fr 2fr 1fr; */
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.card div {
+    display: grid;
+    margin: auto;
+}
+
+.card-section1 img {
+    display: grid;
+    margin: auto;
+    width: 18vw;
+}
+.card-section2{
+    display: grid;
+    margin: auto;
+    gap: 5px;
+}
+
+.card h3 {
+    display: grid;
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 3vw;
+}
+
+.card h2 {
+    display: grid;
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 5vw;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card button {
+    display: grid;
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 4vw;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 3vw;
+    padding: 0.4vw 1vw;
+    cursor: pointer;
+}
