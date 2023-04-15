@@ -11,8 +11,6 @@ The website features a captivating home page that greets visitors with an eye-ca
 
 To ensure accessibility for all users, I followed best practices for clean and organized coding, optimized the website for performance, and paid attention to usability and user experience. The project allowed me to apply my technical skills in web development while also focusing on creating an aesthetically pleasing and functional website.
 
-This project was a valuable learning experience that helped me further enhance my web development skills and contributed to my university's Computer Science Society. I'm proud of the outcome and the positive impact it has on the society's online presence.
-
 Skills Demonstrated:
 
 HTML5, CSS3, JavaScript
@@ -20,6 +18,6 @@ Responsive web design
 Clean and organized coding
 Performance optimization
 Usability and user experience
-Link to the project: [Insert link to your website here]
+Link to the project: https://naeem-ur-rahman.github.io/Computer-Science-Society-Website/
 
 #WebDevelopment #HTML5 #CSS3 #JavaScript #ResponsiveDesign #ComputerScience #UniversitySociety
