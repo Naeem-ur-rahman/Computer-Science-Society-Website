@@ -4,10 +4,6 @@ body {
     background-color: #131252;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 header {
     min-width: 700px;
     height: 20vh;
@@ -115,7 +111,7 @@ nav ul a {
     justify-content: center;
 }
 
-.left {
+.main-start-left {
     margin: 5vw;
     height: 70vh;
     width: auto;
@@ -126,7 +122,7 @@ nav ul a {
     gap: 10px;
 }
 
-.left p {
+.main-start-left p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -159,15 +155,7 @@ nav ul a {
     line-height: 34px;
 }
 
-.grey {
-    color: #6b6767;
-}
-
-.light-blue {
-    color: #726bf8;
-}
-
-.right {
+.main-start-right {
     height: 70vh;
     width: 45vw;
     position: relative;
@@ -176,7 +164,7 @@ nav ul a {
     justify-content: center;
 }
 
-.right img {
+.main-start-right img {
     position: absolute;
     bottom: 2px;
 }
@@ -388,7 +376,8 @@ nav ul a {
     margin: auto;
     width: 18vw;
 }
-.card-section2{
+
+.card-section2 {
     display: grid;
     margin: auto;
     gap: 5px;

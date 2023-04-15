@@ -68,6 +68,12 @@ footer a {
     margin-right: 10px;
 }
 
+.down-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .down-footer .links {
     display: flex;
     gap: 18px;
@@ -87,7 +93,8 @@ footer a {
     color: white;
     font-size: medium;
 }
-#email-field::placeholder{
+
+#email-field::placeholder {
     color: white;
     opacity: 0.5;
     font-size: medium;

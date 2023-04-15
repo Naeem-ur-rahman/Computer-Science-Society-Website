@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+.grey {
+    color: #6b6767;
+}
+
+.light-blue {
+    color: #726bf8;
+}
+
 .flex-center {
     display: flex;
     align-items: center;
@@ -15,4 +23,10 @@
 
 .break {
     height: 10vh;
+}
+
+body::-webkit-scrollbar {
+    visibility: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }

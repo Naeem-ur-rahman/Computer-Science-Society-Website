@@ -1,0 +1,84 @@
+main>.events-section-1 {
+    min-height: auto;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+main>.events-section-2 {
+    min-height: auto;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap-reverse;
+}
+
+main>.events-section-3 {
+    min-height: auto;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+main>.events-section-4 {
+    min-height: auto;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap-reverse;
+}
+
+.left {
+    min-width: 300px;
+    max-width: 40vw;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right {
+    min-width: 300px;
+    max-width: 40vw;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main div>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+main div>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+main div>img {
+    width: 80%;
+}

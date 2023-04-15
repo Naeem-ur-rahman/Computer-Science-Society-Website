@@ -31,6 +31,7 @@
         font-size: 15px;
         line-height: normal;
     }
+
     .main-four {
         height: 50vh;
     }
@@ -165,14 +166,14 @@
         align-items: center;
     }
 
-    .left {
+    .main-start-left {
         display: grid;
         margin: 5vw;
         width: 70vw;
         height: 50vh;
     }
 
-    .left p {
+    .main-start-left p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
@@ -184,7 +185,7 @@
         padding: 10px;
     }
 
-    .right {
+    .main-start-right {
         margin: 10vw;
         height: 300px;
         width: 70vw;
@@ -192,7 +193,7 @@
         margin: auto;
     }
 
-    .right img {
+    .main-start-right img {
         width: 200px;
     }
 
@@ -238,5 +239,12 @@
 
     .event-section-content {
         height: fit-content;
+    }
+}
+
+@media only screen and (width > 912px) {
+    .navbar ul li:hover {
+        color: #726bf8;
+        ;
     }
 }
